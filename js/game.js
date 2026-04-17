@@ -19,7 +19,6 @@ function resetGameLogic() {
 //Обработка попытки угадать
 
 function makeGuess() {
-
     const input = document.getElementById('guess-input');
     const guess = parseInt(input.value);
     const hintElement = document.getElementById('hint-msg');
