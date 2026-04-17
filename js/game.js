@@ -31,7 +31,7 @@ function makeGuess() {
     }
 
     attempts++;
-    
+
     if (guess === secretNumber) {
         hintElement.innerText = `🎉 Вы угадали! Число было ${secretNumber}.`;
         endGame();

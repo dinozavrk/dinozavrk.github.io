@@ -20,7 +20,6 @@ function startGame() {
     document.getElementById('welcome-msg').innerText = `Удачи, ${playerName}!`;
     
     resetGameLogic();
-
 }
 
 //Кнопка "Начать заного"

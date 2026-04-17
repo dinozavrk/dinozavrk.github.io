@@ -17,7 +17,6 @@ function saveRecord(name, score) {
     records = records.slice(0, MAX_RECORDS);
     
     localStorage.setItem('gameRecords', JSON.stringify(records));
-
 }
 
 //Отображаем таблицу рекордов на странице
